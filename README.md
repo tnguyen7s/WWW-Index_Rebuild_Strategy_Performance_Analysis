@@ -29,8 +29,37 @@ Each excel file contains these data metrics:
 | Performance                              | Compilations                             | Compilations per batch           |        
 
 
-# Project steps
+# Project milestones
+We have foreseen the necessary steps to accomplish the projects (outlined below). As we move on, we may add changes to these steps or other parts in this document.
+## 1. Data processing
+To assist the data analytics, it is important to clean and transform the data to an appropriate format. Use a programming language (Python recommended) to process each file mentioned above as follows:
+- For each sheet, averaging the values to the minute granularity.
+- Join the metrics from all sheets in the file by the `Date (UTC)` column.
+- Converts the `Date (UTC)` to `Date (Central Standard Time)`.
+- Convert the `Free Memory` metric from Bytes to GB
+- Multiply the `Compilations/batch` by 100
+- Combine `Disk avg read time sql data 1` and `Disk avg read time sql data 2` into one column `Disk avg read time sql data` using a SUM
+- Export the result dataframe to a CSV file, and name it using a convention. For example, if input file is `1st_day_A.xlsx`, the output file is `[24hour]1st_day_A.csv`
+- Filter the data on the dataframe to include only records between the timeframe 5 am to 4 pm. Export the result dataframe to a CSV file, and name it using another convention, e.g. `[Daytime]1st_day_A.csv`
+At the end of the processing, for each Excel file, we want to have two output CSV files, each containing 12 columns.
+
+## 2. Data exploration
+This step is necessary for further analysis and future choices of the types of hypothesis testing that best fit the data. For each variable:
+-	Understand distribution (using histogram, box plots, or violins)
+-	Identify unusual values during the day (very high/low values)
+-	Identify any special relationships among the metrics
+-	Others
+
+## 3. Hypothesis testing
+- From the data exploration above, determine an appropriate statistical test to test if there is a significant difference between the means of the two groups (with index rebuild jobs and without index rebuild jobs). For example, if data qualifies all assumptions of independent T-tests, we will use that type of test on the metric.
+- There are 11 metrics and 5 days, thus we need a total of 55 tests.
+
+## 4. Data visualization
+- To communicate the result to other stakeholders, we need a beautiful Tableau dashboard to display insights from data explorations and results from hypothesis testing. We will discuss the details as we move on to this step.
+
+# Timeline
 
 # Objectives
 
-# Timeline
+
+
