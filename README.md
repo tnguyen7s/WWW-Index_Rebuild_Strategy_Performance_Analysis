@@ -57,7 +57,15 @@ This step is necessary for further analysis and future choices of the types of h
 ## 4. Data visualization
 - To communicate the result to other stakeholders, we need a beautiful Tableau dashboard to display insights from data explorations and results from hypothesis testing. We will discuss the details as we move on to this step.
 
-# Timeline
+# Timeline and meetings
+- Thursday 05/09/2024: hand the first version of the code for the 1st step Data Preprocessing. We will meet to review and clean up the code.
+- Friday 05/06/2024: the company will upload the remaining datasets
+- Monday 05/12/2024: deliver some of your findings on the 2nd step Data Exploration
+- Thursday 05/16/2024: deliver other findings on the 2nd step Data Exploration and determine the types of tests for the 3rd step Hypothesis testing
+- Sunday 05/19/2024: deliver your results on the 3rd step Hypothesis testing. Review and clean up the code.
+- Monday 05/20/2024: discuss on the requirements of the 4th step Data visualization
+- Friday 05/24/2024: deliver your first attempt on the dashboard. Receive feedbacks to fix
+- Monday 05/27/2024: finalize the dashboard
 
 # Objectives
 
