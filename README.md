@@ -64,10 +64,10 @@ This step is necessary for further analysis and future choices of the types of h
 - Thursday 05/16/2024: deliver other findings on the 2nd step Data Exploration and determine the types of tests for the 3rd step Hypothesis testing
 - Sunday 05/19/2024: deliver your results on the 3rd step Hypothesis testing. Review and clean up the code.
 - Monday 05/20/2024: discuss on the requirements of the 4th step Data visualization
-- Friday 05/24/2024: deliver your first attempt on the dashboard. Receive feedbacks to fix
+- Friday 05/24/2024: deliver your first attempt on the dashboard. Receive feedback to fix
 - Monday 05/27/2024: finalize the dashboard
 
 # Objectives
-
+You will help the company answer the question mentioned in the Context. In addition, you will gain experience on pandas (1. Data processing), matplotlib (2. Data exploration), hypothesis testing, and Tableau (4. Data visualization)
 
 
