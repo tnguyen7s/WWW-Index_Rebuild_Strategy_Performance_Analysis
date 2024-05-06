@@ -7,11 +7,11 @@ This project aims to use the collected data and compare the server's performance
 The project will use the workload and performance data for the following days:
 | Condition A - Index maintenance Enabled  | Condition B - Index maintenance Disabled | Workload Same?                   | Performance Different? How much? |
 | ---------------------------------------- | ---------------------------------------- | -------------------------------- | -------------------------------- |
-| first_day_A.xlsx                         | first_day_B.xlsx                         |              ?                   |              ?                   |
-| second_day_A.xlsx                        | second_day_B.xlsx                        |              ?                   |              ?                   |
-| third_day_A.xlsx                         | third_day_B.xlsx                         |              ?                   |              ?                   |
-| fourth_day_A.xlsx                        | fourth_day_B.xlsx                        |              ?                   |              ?                   |
-| fifth_day_A.xlsx                         | fifth_day_B.xlsx                         |              ?                   |              ?                   |
+| 1st_day_A.xlsx                           | 1st_day_B.xlsx                           |              ?                   |              ?                   |
+| 2nd_day_A.xlsx                           | 2nd_day_B.xlsx                           |              ?                   |              ?                   |
+| 3th_day_A.xlsx                           | 3th_day_B.xlsx                           |              ?                   |              ?                   |
+| 4th_day_A.xlsx                           | 4th_day_B.xlsx                           |              ?                   |              ?                   |
+| 5th_day_A.xlsx                           | 5th_day_B.xlsx                           |              ?                   |              ?                   |
 
 first_day_B.xlsx contains data on the first day since the index maintenance was disabled. first_day_A.xlsx contains the corresponding data when index maintenance was enabled to compare with. Apply the same logic to other days.
 
