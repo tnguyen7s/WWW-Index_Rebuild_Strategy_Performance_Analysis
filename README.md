@@ -57,12 +57,15 @@ This step is necessary for further analysis and future choices of the types of h
 -	Others
 
 ## 3. Hypothesis testing
+For file `[Daytime]A.csv` and `[Daytime]B.csv`, perform the two mean difference tests on all the metrics and collect the test result (difference value, p-value, and conclusion)
 - From the data exploration above, determine an appropriate statistical test to test if there is a significant difference between the means of the two groups (with index rebuild jobs and without index rebuild jobs). For example, if data qualifies all assumptions of independent T-tests, we will use that type of test on the metric.
 - There are 11 metrics and 5 days, thus we need a total of 55 tests.
 
 Some useful references:
 - Two means Difference Test Assumptions and Alternatives [https://www.mas.ncl.ac.uk/~njnsm/medfac/docs/skewness]
 - GeeksForGeek is an exellent reference (brief concepts and examples with code illustration): [https://www.geeksforgeeks.org/mann-and-whitney-u-test/]
+
+For file `A.csv` and `B.csv`, no need to do perform hypothesis testing, however compute these statistics mean, median to compare
 
 ## 4. Data visualization
 - To communicate the result to other stakeholders, we need a beautiful Tableau dashboard to display insights from data explorations and results from hypothesis testing. We will discuss the details as we move on to this step.
