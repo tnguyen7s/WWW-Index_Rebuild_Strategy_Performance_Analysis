@@ -1,5 +1,6 @@
 # Context
 At W.W.Wood Products, the company uses SQL Server database to store internal data serving their applications. The company set up different processes and settings in the past to improve the server's performance, one of which is the index rebuild jobs. By schedule, these jobs run every night, and they are intensive processes. Currently, we have been reassessing the need to balance between the frequency/the amount of work spent on index maintenance and the server's performance. We learned that the extra workload on index rebuild might not yield better performance.
+
 In theory, index maintenance every once a week is more appropriate than the daily approach that we are taking. However, we need empirical analysis to come to any conclusion for decision-making.
 This project aims to use the collected data and compare the server's performance under two different conditions: when index maintenance was enabled (allow index rebuild every night during weekdays) and when it was disabled (no index rebuild during weekdays at all). Given we would attempt to control other variables on the server to be the same (workload, and other settings).
 
