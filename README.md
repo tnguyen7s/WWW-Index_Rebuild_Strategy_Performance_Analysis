@@ -65,7 +65,7 @@ Some useful references:
 - Two means Difference Test Assumptions and Alternatives [https://www.mas.ncl.ac.uk/~njnsm/medfac/docs/skewness]
 - GeeksForGeek is an exellent reference (brief concepts and examples with code illustration): [https://www.geeksforgeeks.org/mann-and-whitney-u-test/]
 
-For file `A.csv` and `B.csv`, no need to do perform hypothesis testing, however compute these statistics mean, median to compare
+For file `A.csv` and `B.csv`, no need to perform hypothesis testing on them, however compute these statistics: mean and median to compare
 
 ## 4. Data visualization
 - To communicate the result to other stakeholders, we need a beautiful Tableau dashboard to display insights from data explorations and results from hypothesis testing. We will discuss the details as we move on to this step.
