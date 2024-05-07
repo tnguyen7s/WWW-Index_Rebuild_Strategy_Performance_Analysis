@@ -60,8 +60,8 @@ This step is necessary for further analysis and future choices of the types of h
 - There are 11 metrics and 5 days, thus we need a total of 55 tests.
 
 Some useful references:
-- Two means Difference Test Assumptions and Alternatives ([https://www.mas.ncl.ac.uk/~njnsm/medfac/docs/skewness])
-- GeeksForGeek is an exellent reference (brief concepts and examples with code illustration): ([https://www.geeksforgeeks.org/mann-and-whitney-u-test/])
+- Two means Difference Test Assumptions and Alternatives [https://www.mas.ncl.ac.uk/~njnsm/medfac/docs/skewness]
+- GeeksForGeek is an exellent reference (brief concepts and examples with code illustration): [https://www.geeksforgeeks.org/mann-and-whitney-u-test/]
 
 ## 4. Data visualization
 - To communicate the result to other stakeholders, we need a beautiful Tableau dashboard to display insights from data explorations and results from hypothesis testing. We will discuss the details as we move on to this step.
